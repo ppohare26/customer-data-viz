@@ -24,7 +24,7 @@ To run the dashboard locally, follow these steps:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/data-explorer-dashboard.git
+https://github.com/ppohare26/customer-data-viz.git
 ```
 ### 2. Navigate to the project folder:
 ```bash
