@@ -108,3 +108,14 @@ data-explorer-dashboard/
 <li>Modify Visualizations: You can adjust the types of visualizations or add new ones depending on your needs. The app is flexible and can be extended with new chart types (e.g., line charts, heatmaps).</li>
 
 <li>Adjust Data Wrangling: If needed, you can customize how missing values are handled or implement additional data cleaning steps.</li>
+
+## Some Snaps of visuals
+<img width="1465" alt="Screenshot 2025-04-25 at 12 58 31 AM" src="https://github.com/user-attachments/assets/93a935be-d91d-40b9-964f-dfafac28fdc6" />
+
+<img width="1464" alt="Screenshot 2025-04-25 at 12 58 00 AM" src="https://github.com/user-attachments/assets/9021c92b-30b4-4ec5-9be2-25b35be67ceb" />
+
+<img width="1467" alt="Screenshot 2025-04-25 at 12 55 56 AM" src="https://github.com/user-attachments/assets/347bb76e-ca64-4816-8b4e-bec67104cdff" />
+
+<img width="1087" alt="Screenshot 2025-04-25 at 12 58 53 AM" src="https://github.com/user-attachments/assets/7a9c3aa6-3bb5-4222-b811-c92eff2c0805" />
+
+
