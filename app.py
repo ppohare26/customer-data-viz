@@ -5,7 +5,7 @@ from util.cleaning import clean_missing_values, remove_duplicates
 from tabs import overview, visualization, feature, relationship
 
 st.set_page_config(page_title="📊 Data Explorer Dashboard", layout="wide")
-st.title("📊 Interactive Data Analysis Dashboard")
+st.title("📊  Data Analysis Dashboard")
 
 upload = st.sidebar.file_uploader("Upload CSV", type="csv")
 
@@ -27,16 +27,16 @@ if upload:
     tabs = st.tabs(["📁 Overview", "📈 Visualizations", "📊 Feature Analysis", "📉 Relationships"])
 
     with tabs[0]:
-        overview_tab.render(df_used, cont_columns, cat_columns, missing_summary, num_duplicates)
+        overview.render(df_used, cont_columns, cat_columns, missing_summary, num_duplicates)
 
     with tabs[1]:
-        visualization_tab.render(df_used, cat_columns)
+        visualization.render(df_used, cat_columns)
 
     with tabs[2]:
-        feature_analysis_tab.render(df_used, cont_columns)
+        feature.render(df_used, cont_columns)
 
     with tabs[3]:
-        relationship_tab.render(df_used, cont_columns, cat_columns)
+        relationship.render(df_used, cont_columns, cat_columns)
 
 else:
     st.warning("📂 Please upload a CSV file to begin.")
